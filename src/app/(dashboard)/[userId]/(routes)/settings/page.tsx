@@ -8,10 +8,10 @@ interface SettingsPageProps {
 
 const SettingsPage: React.FC<SettingsPageProps> = ({ params }) => {
   const initialData = {
-    diastolicPressure: 80,
-    heartRate: 70,
-    tags: ["en reposo"],
-    systolicPressure: 120,
+    diastolicPressure: 0,
+    heartRate: 0,
+    tags: [],
+    systolicPressure: 0,
   };
 
   return (
