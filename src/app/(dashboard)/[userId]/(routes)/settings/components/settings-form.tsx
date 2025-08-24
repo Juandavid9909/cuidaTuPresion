@@ -1,5 +1,5 @@
 import { Heading } from "@/components/shared/heading/heading";
-import { Separator } from "@/components/shared/separator";
+import { Separator } from "@/components/shared/separator/separator";
 
 export const SettingsForm = () => {
   return (
