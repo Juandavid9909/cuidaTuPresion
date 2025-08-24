@@ -1,6 +1,6 @@
 import Navbar from "@/components/shared/navbar/navbar";
 
-export default async function DashboardLayout({
+export default function DashboardLayout({
   children,
   params,
 }: {
