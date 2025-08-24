@@ -93,8 +93,6 @@ export const SettingsForm: React.FC<MedicalFormProps> = ({ initialData }) => {
                       placeholder="Presión diastólica del usuario"
                       type="number"
                       {...field}
-                      value={field.value}
-                      onChange={(e) => field.onChange(e.target.valueAsNumber)}
                     />
                   </FormControl>
 
@@ -115,8 +113,6 @@ export const SettingsForm: React.FC<MedicalFormProps> = ({ initialData }) => {
                       placeholder="Frecuencia cardíaca del usuario"
                       type="number"
                       {...field}
-                      value={field.value}
-                      onChange={(e) => field.onChange(e.target.valueAsNumber)}
                     />
                   </FormControl>
 
@@ -137,8 +133,6 @@ export const SettingsForm: React.FC<MedicalFormProps> = ({ initialData }) => {
                       placeholder="Presión sistólica del usuario"
                       type="number"
                       {...field}
-                      value={field.value}
-                      onChange={(e) => field.onChange(e.target.valueAsNumber)}
                     />
                   </FormControl>
 
