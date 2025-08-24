@@ -1,3 +1,5 @@
+import { SettingsForm } from "./components/settings-form";
+
 interface SettingsPageProps {
   params: {
     userId: string;
@@ -6,8 +8,10 @@ interface SettingsPageProps {
 
 const SettingsPage: React.FC<SettingsPageProps> = ({ params }) => {
   return (
-    <div>
-      <h1>Settings for User: {params.userId}</h1>
+    <div className="flex-col">
+      <div className="flex-1 space-y-4 p-8 pt-6">
+        <SettingsForm />
+      </div>
     </div>
   );
 };
